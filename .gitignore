@@ -1,0 +1,16 @@
+node_modules
+dist
+src/controllers
+src/models
+QuestionsAndAnswersAPI
+QuestionsAndAnswersAPI/listAnswers
+QuestionsAndAnswersAPI/listQuestion
+QuestionsAndAnswersAPI/markQuestionAsHelpful
+QuestionsAndAnswersAPI/addAnswer
+QuestionsAndAnswersAPI/addQuestion
+QuestionsAndAnswersAPI/markAnswerAsHelpful
+QuestionsAndAnswersAPI/reportAnswer
+QuestionsAndAnswersAPI/reportQuestion
+newrelic_agent.log
+.env
+SSH info
