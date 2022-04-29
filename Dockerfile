@@ -19,7 +19,7 @@ ENV LICENSEKEY="cc2a6c439637bc4dbec4327c3dc0f520b4f9NRAL"
 ENV APPNAME="sdc"
 ENV NODE_ENV=production
 # make port available outside docker container
-EXPOSE 4000
+EXPOSE 8080
 RUN npm run build
 # command to start application
 CMD ["npm","start"]
