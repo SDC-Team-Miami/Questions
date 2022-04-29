@@ -14,3 +14,5 @@ QuestionsAndAnswersAPI/reportQuestion
 newrelic_agent.log
 .env
 SSH info
+SSH info.js
+DNS
