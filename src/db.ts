@@ -52,9 +52,10 @@ type RawAnswersType = {
   url: string | null;
   photo_id: number | null;
 };
-const sequelize = new Sequelize(
-  `postgres://${process.env.DBUSER}:${process.env.DBPASSWORD}@${process.env.DBIP}:${process.env.DBPORT}/questiondb`,
-);
+
+const dbURL = `postgres://${process.env.DBUSER}:${process.env.DBPASSWORD}@${process.env.DBIP}:${process.env.DBPORT}/questiondb`;
+console.log('dbURL: ', dbURL);
+const sequelize = new Sequelize(dbURL);
 
 export const Question = sequelize.define(
   'questions',
