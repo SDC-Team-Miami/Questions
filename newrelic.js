@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * New Relic agent configuration.
  *
