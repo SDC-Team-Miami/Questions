@@ -5,9 +5,8 @@
   "main": "server.ts",
   "scripts": {
     "build": "tsc -p .",
-    "start": "node -r newrelic dist/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -r newrelic src/server.ts"
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts"
   },
   "repository": {
     "type": "git",

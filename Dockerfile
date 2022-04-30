@@ -12,7 +12,6 @@ ENV NODE_ENV=production
 # the directory we are working from basically a way to cd into a directory
 ## WORKDIR /app
 WORKDIR /usr/src/app
-
 # copy package file into the directory
 COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
 # install deps
@@ -20,7 +19,6 @@ COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
 RUN npm install --production --silent && mv node_modules ../
 # copy source code (will ignore node_modules thanks to .dockerignore)
 COPY . .
-
 # make port available outside docker container
 EXPOSE 8080
 ## RUN npm run build

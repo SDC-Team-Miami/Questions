@@ -4,7 +4,7 @@ import 'dotenv/config';
 import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
-import newrelic from 'newrelic/index';
+// import newrelic from 'newrelic/index';
 import router from './routes';
 
 const app = express();
