@@ -56,7 +56,7 @@ router.get(
 );
 
 router.get('/loaderio-534939c83589e0f1ea0934acf340ee2b.txt', (req: Request, res: Response) => {
-  res.status(200).send('loaderio-534939c83589e0f1ea0934acf340ee2b');
+  res.send('loaderio-534939c83589e0f1ea0934acf340ee2b');
 });
 
 // get answers
